@@ -5,11 +5,15 @@ import {
 } from "react-router-dom";
 import Home from './pages/home'
 import User from './pages/user'
+import Login from './pages/login'
 
 function routes() {
     return <Switch>
         <Route path="/user">
             <User />
+        </Route>
+        <Route path="/login">
+            <Login />
         </Route>
         <Route path="/">
             <Home />
